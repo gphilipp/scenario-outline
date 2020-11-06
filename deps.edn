@@ -1,0 +1,6 @@
+{:deps {fundingcircle/jukebox {:mvn/version "1.0.6"}}
+
+ :aliases
+ {:cucumber
+  {:main-opts ["-m" "fundingcircle.jukebox.alias.cucumber"]
+   :extra-deps {fundingcircle/jukebox {:mvn/version "1.0.6"}}}}}
